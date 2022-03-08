@@ -1,60 +1,61 @@
-#home{
-    width: 100%;
-    height: 100vh;
+#home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .home-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    .home-content{
-        display: flex;
-        justify-content: right;
-        padding-top: 5.8rem;
-        padding-right: 5.8rem;
-        padding-bottom: 6rem;
-        padding-left: 5.8rem;
-        .hleft{
-            width: 50%;
-            padding-left: 25px;
-            padding-right: 10px;
-            h1{
-                line-height: 1.3;
-                letter-spacing: 1px;
-               font-size: 2.6rem;
-               font-family: "circularL";
-            }
-            h5{
-                line-height: 32px;
-                letter-spacing: 0.02rem;
-               font-size: 1.15rem;
-               font-weight:lighter;
-               padding-top: 13px;
-            }
-            button{
-                padding: 13px 15px;
-                font-size: 1rem;
-                background: transparent;
-                border: 2px solid #3396ff;
-                color: #3396ff;
-                border-radius: 5px;
-                margin-top: 30px;
-                letter-spacing: 1px;
-                cursor: pointer;
-                transition: all 0.2s ease-in-out;
-                font-family: "circularM";
-            }
-            button:hover{
-                color: white;
-                background: #3396ff;
-            }
-        }
-        .hright{
-            width: 60%;
-            display: flex;
-            justify-content: flex-start;
-            img{
-                width: 100%;
-                overflow: hidden;
-                transform: rotate(-9deg) translateY(-40px) translateX(-35px);
-            }
-        }
+    justify-content: right;
+    padding-top: 5.8rem;
+    padding-right: 8rem;
+    padding-bottom: 6rem;
+    padding-left: 8rem;
+    .hleft {
+      width: 50%;
+      padding-left: 25px;
+      padding-right: 10px;
+      h1 {
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 2.6rem;
+        font-family: "circularM";
+      }
+      h5 {
+        line-height: 32px;
+        letter-spacing: 0.02rem;
+        font-size: 1.15rem;
+        font-weight: lighter;
+        padding-top: 13px;
+        max-width: 80%;
+      }
+      button {
+        padding: 13px 15px;
+        font-size: 1rem;
+        background: transparent;
+        border: 2px solid #3396ff;
+        color: #3396ff;
+        border-radius: 5px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        font-family: "circularM";
+      }
+      button:hover {
+        color: white;
+        background: #3396ff;
+      }
     }
+    .hright {
+      width: 60%;
+      display: flex;
+      justify-content: flex-start;
+      img {
+        width: 100%;
+        overflow: hidden;
+        transform: rotate(-9deg) translateY(-40px) translateX(-35px);
+      }
+    }
+  }
 }
