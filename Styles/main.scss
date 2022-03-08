@@ -1,0 +1,30 @@
+@import "./navbar";
+@import "./home";
+
+// Importing Fonts 
+@font-face {
+    font-family: "circularL";
+    src: url("../Media/Fonts/Circular/CircularStd-Light.otf");
+}
+@font-face {
+    font-family: "circularM";
+    src: url("../Media/Fonts/Circular/CircularStd-Book.otf");
+}
+@font-face {
+    font-family: "circularB";
+    src: url("../Media/Fonts/Circular/CircularStd-Black.otf");
+}
+
+// General Styling
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #0d264c;
+    font-family:"circularL" ;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
