@@ -1,5 +1,9 @@
 @import "./navbar";
 @import "./home";
+@import "./services";
+@import "./captain";
+@import "./work";
+@import "./contact";
 
 // Importing Fonts 
 @font-face {
@@ -20,10 +24,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     color: #0d264c;
     font-family:"circularL" ;
+    overflow-X: hidden;
 }
 body::-webkit-scrollbar{
     display: none;

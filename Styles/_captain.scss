@@ -1,0 +1,91 @@
+#captain{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .captain-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: auto;
+      padding-bottom: 6rem;
+      width: 85%;
+      .Cleft{
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+         width: 50%;
+         h2{
+             font-family: "circularM";
+             color: #3396ff;
+             letter-spacing: 1px;
+             padding-bottom: 15px;
+             font-size: 1.8rem;
+         }
+         p{
+             font-size: 1.1rem;
+             line-height: 30px;
+             max-width: 80%;
+             span{
+                 background-color: #D3E3F9;
+                 font-family: "circularM";
+                 padding: 5px 5px;
+             }
+         }
+         button{
+            padding: 13px 15px;
+            font-size: 1.1rem;
+            background: transparent;
+            border: 2px solid #3396ff;
+            color: #3396ff;
+            border-radius: 5px;
+            margin-top: 50px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            width: 10rem;
+            transition: all 0.2s ease-in-out;
+            font-family: "circularM";
+        }
+        button:hover{
+            background: #1385ff;
+            color: white;
+        }
+      }
+      .Cright{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        width: 50%;
+        h3{
+            font-family: "circularM";
+            opacity: 0.8;
+            span{
+                font-family: "circularL";
+            }
+        }
+        img{
+            width: 100%;
+            padding-bottom: 20px;
+        }
+        .Csocials{
+            width: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 15px;
+            img{
+                width: 20px;
+                cursor: pointer;
+                transition: opacity 0.2s ease-in-out;
+                opacity: 0.8;
+            }
+            img:hover{
+                opacity: 1;
+            }
+        }
+      }
+    }
+  }
+  

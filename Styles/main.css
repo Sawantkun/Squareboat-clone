@@ -9,8 +9,7 @@ nav {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: white;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -172,7 +171,7 @@ nav .nav-content ul li .contact-link:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 5.8rem;
+  margin-top: 20rem;
   padding-bottom: 6rem;
   width: 87%;
 }
@@ -235,6 +234,483 @@ nav .nav-content ul li .contact-link:hover {
           transform: rotate(-9deg) translateY(-40px) translateX(-35px);
 }
 
+#services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 7rem;
+}
+
+#services .services-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 85%;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+#services .services-content h2 {
+  font-family: "circularM";
+  font-size: 2rem;
+  color: #3396ff;
+}
+
+#services .services-content p {
+  font-size: 1.3rem;
+  max-width: 50%;
+}
+
+#services .services-content .services-tiles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 70px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#services .services-content .services-tiles h3 {
+  padding-bottom: 15px;
+}
+
+#services .services-content .services-tiles p {
+  font-size: 1rem;
+  max-width: none;
+}
+
+#services .services-content button {
+  padding: 13px 15px;
+  font-size: 1rem;
+  background: #3396ff;
+  border: 2px solid #3396ff;
+  color: white;
+  border-radius: 5px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-family: "circularM";
+}
+
+#services .services-content button:hover {
+  background: #1385ff;
+}
+
+#captain {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#captain .captain-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: auto;
+  padding-bottom: 6rem;
+  width: 85%;
+}
+
+#captain .captain-content .Cleft {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+#captain .captain-content .Cleft h2 {
+  font-family: "circularM";
+  color: #3396ff;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+#captain .captain-content .Cleft p {
+  font-size: 1.1rem;
+  line-height: 30px;
+  max-width: 80%;
+}
+
+#captain .captain-content .Cleft p span {
+  background-color: #D3E3F9;
+  font-family: "circularM";
+  padding: 5px 5px;
+}
+
+#captain .captain-content .Cleft button {
+  padding: 13px 15px;
+  font-size: 1.1rem;
+  background: transparent;
+  border: 2px solid #3396ff;
+  color: #3396ff;
+  border-radius: 5px;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 10rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-family: "circularM";
+}
+
+#captain .captain-content .Cleft button:hover {
+  background: #1385ff;
+  color: white;
+}
+
+#captain .captain-content .Cright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+#captain .captain-content .Cright h3 {
+  font-family: "circularM";
+  opacity: 0.8;
+}
+
+#captain .captain-content .Cright h3 span {
+  font-family: "circularL";
+}
+
+#captain .captain-content .Cright img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#captain .captain-content .Cright .Csocials {
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 15px;
+}
+
+#captain .captain-content .Cright .Csocials img {
+  width: 20px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0.8;
+}
+
+#captain .captain-content .Cright .Csocials img:hover {
+  opacity: 1;
+}
+
+#ourwork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 50vh;
+}
+
+#ourwork .work-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+#ourwork .work-content h3 {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  padding-bottom: 70px;
+}
+
+#ourwork .work-content .work-tiles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (350px)[3];
+      grid-template-columns: repeat(3, 350px);
+  width: 100%;
+  height: 100%;
+  grid-column-gap: 30px;
+}
+
+#ourwork .work-content .work-tiles .work-tile1 img {
+  width: 10rem;
+  margin-bottom: 40px;
+}
+
+#ourwork .work-content .work-tiles .work-tile1 p {
+  max-width: 80%;
+}
+
+#ourwork .work-content .work-tiles .work-tile1 button {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 15px 13px 0;
+  background: white;
+  color: #3396ff;
+  font-family: "circularM";
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+#ourwork .work-content .work-tiles .work-tile1 button img {
+  width: 20px;
+  padding-left: 5px;
+  margin: 0;
+}
+
+#ourwork .work-content .work-tiles .work-tile2 {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+#ourwork .work-content .work-tiles .work-tile2 img {
+  width: 7rem;
+  margin-bottom: 15px;
+}
+
+#ourwork .work-content .work-tiles .work-tile2 p {
+  max-width: 80%;
+}
+
+#ourwork .work-content .work-tiles .work-tile2 button {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 15px 13px 0;
+  background: white;
+  color: #3396ff;
+  font-family: "circularM";
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+#ourwork .work-content .work-tiles .work-tile2 button img {
+  width: 20px;
+  padding-left: 5px;
+  margin: 0;
+}
+
+#ourwork .work-content .work-tiles .work-tile3 img {
+  width: 3rem;
+  margin-bottom: 15px;
+}
+
+#ourwork .work-content .work-tiles .work-tile3 p {
+  max-width: 80%;
+}
+
+#ourwork .work-content .work-tiles .work-tile3 button {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 15px 13px 0;
+  background: white;
+  color: #3396ff;
+  font-family: "circularM";
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+#ourwork .work-content .work-tiles .work-tile3 button img {
+  width: 20px;
+  padding-left: 5px;
+  margin: 0;
+}
+
+#ourwork .work-content .work-tiles .work-tile1, #ourwork .work-content .work-tiles .work-tile2, #ourwork .work-content .work-tiles .work-tile3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 30px 30px 50px 30px;
+  border-radius: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 230px;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#ourwork .work-content .work-tiles .work-tile1:hover, #ourwork .work-content .work-tiles .work-tile3:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+#ourwork .work-content .work-tiles .work-tile2:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-transform: translateY(23px);
+          transform: translateY(23px);
+}
+
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 7rem;
+}
+
+#contact .contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 85%;
+  height: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contact .contact-content h2 {
+  color: #1385ff;
+  font-size: 2rem;
+  max-width: 50%;
+}
+
+#contact .contact-content p {
+  max-width: 33%;
+  opacity: 0.9;
+}
+
+#contact .contact-content button {
+  padding: 13px 15px;
+  font-size: 1rem;
+  background: #3396ff;
+  border: 2px solid #3396ff;
+  color: white;
+  border-radius: 5px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-family: "circularM";
+}
+
+#contact .contact-content button:hover {
+  background: #1385ff;
+}
+
 @font-face {
   font-family: "circularL";
   src: url("../Media/Fonts/Circular/CircularStd-Light.otf");
@@ -255,11 +731,13 @@ nav .nav-content ul li .contact-link:hover {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   color: #0d264c;
   font-family: "circularL";
+  overflow-X: hidden;
 }
 
 body::-webkit-scrollbar {
