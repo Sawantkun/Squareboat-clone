@@ -1,0 +1,100 @@
+#footer {
+  background-color: #2d94f3;
+  height: 55vh;
+  width: 100%;
+  padding: 3rem 10rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  .clmn-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    .top {
+      margin-bottom: 1.7rem;
+      p {
+        color: #93c6f7;
+      }
+    }
+  }
+  .clmn-2,
+  .clmn-2,
+  .clmn-3,
+  .clmn-4 {
+    ul {
+      list-style: none;
+      li {
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        margin-bottom: 0.6rem;
+        transition: color 0.1s linear;
+        font-weight: 800;
+        font-family: "circularL";
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+  .clmn-5 {
+    .top {
+      margin-bottom: 1.3rem;
+      h1 {
+        color: white;
+        font-family: "circularM";
+        margin-bottom: 0.5rem;
+        font-size: 1.4rem;
+      }
+      ul {
+        list-style: none;
+        li {
+          color: rgba(255, 255, 255, 0.8);
+          cursor: pointer;
+          margin-bottom: 0.6rem;
+          transition: color 0.1s linear;
+          font-weight: 800;
+          font-family: "circularL";
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+    .bottom {
+      h1 {
+        color: white;
+        font-family: "circularM";
+        margin-bottom: 0.5rem;
+        font-size: 1.4rem;
+      }
+      ul {
+        list-style: none;
+        li {
+          cursor: pointer;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          margin-bottom: 0.5rem;
+          img {
+            height: 20px;
+            width: 20px;
+            margin-right: 1rem;
+          }
+          p {
+            font-size: 1.1rem;
+            font-family: "circularL";
+            color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            transition: color 0.1s linear;
+            font-weight: 800;
+            font-family: "circularL";
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.bg-blue {
+  height: 120vh;
+  width: 100%;
+  background: linear-gradient(0deg, #eef4fd 60%, #f7fafe);
+  transform: skewY(-9deg);
+  z-index: -1;
+  position: absolute;
+  margin-top: -7.5rem;
+}
+#client {
+  height: 110vh;
+  width: 100%;
+  position: relative;
+  h1 {
+    font-size: 5.9rem;
+    text-align: center;
+    color: #cde4fc;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 5rem 0;
+  }
+  .clients-container {
+    text-align: center;
+    h2 {
+      color: #3396ff;
+      font-family: "circularM";
+      letter-spacing: 1px;
+      font-size: 2rem;
+    }
+    p {
+      font-family: "circularL";
+      font-size: 1.2rem;
+      margin: 1.5rem 0 4rem 0;
+    }
+    .logos {
+      margin: 0 10rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      height: 20rem;
+      row-gap: 10px;
+      column-gap: 20px;
+      padding: 1rem;
+      div {
+        padding: 0rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        img {
+          height: 50px;
+        }
+      }
+    }
+    button {
+      padding: 13px 15px;
+      font-size: 1rem;
+      background: transparent;
+      border: 2px solid #3396ff;
+      color: #3396ff;
+      border-radius: 5px;
+      margin-top: 30px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      font-family: "circularM";
+      &:hover {
+        color: white;
+        background: #3396ff;
+      }
+    }
+  }
+}

@@ -4,10 +4,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Media/Icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./Styles/swiper.css">
     <link rel="stylesheet" href="./Styles/main.css">
+ 
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
     <title>Squareboat - Best Web Development Company in Gurgaon</title>
 </head>
 <body>
+
 
     <!-- Navbar Section -->
     <nav>
@@ -17,11 +24,11 @@
             <h1><a href="#home">squareboat</a></h1>
         </div>
         <ul>
-            <li><a href="#">Our Clients</a></li>
+            <li><a href="#client">Our Clients</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#captain">Captain</a></li>
             <li><a href="#ourwork">Our Work</a></li>
-            <li><a href="#">Reviews</a></li>
+            <li><a href="#reviews">Reviews</a></li>
             <li><a href="#contact" class="contact-link">Contact</a></li>
         </ul>
         </div>
@@ -41,6 +48,43 @@
         </div>
     </section>
 
+    <!-- Client section -->
+    <div class="bg-blue"></div>
+    <section id="client">
+        <h1>GREAT DIGITAL EXPERIENCES</h1>
+        <div class="clients-container">
+            <h2>Our Clients</h2>
+            <p>We pride ourselves on building successful, end to end web and <br> mobile applications.</p>
+            <div class="logos">
+                <div>
+                    <img class="img1" width="120px"  src="./Media/Images/logo-4d2d81aefcf296bc100d9edc114c2ea5.png" alt="">
+                </div>
+                <div>
+                    <img class="img2" width="120px"  src="./Media/Images/MicrosoftTeams-image-(17).png" alt="">
+                </div>
+                <div>
+                    <img class="img3" src="./Media/Images/MicrosoftTeams-image-(15).png" alt="">
+                </div>
+                <div>
+                    <img class="img4" src="./Media/Images/niyo.png" alt="">
+                </div>
+                <div>
+                    <img class="img5" src="./Media/Images/star_health_logo.svg" alt="">
+                </div>
+                <div>
+                    <img class="img6" src="./Media/Images/jubilant.svg" alt="">
+                </div>
+                <div>
+                    <img class="img7" src="./Media/Images/MicrosoftTeams-image-(19).png" alt="">
+                </div>
+                <div>
+                    <img class="img8" src="./Media/Images/Elevation_Primary_logo_RGB@2x.png" alt="">
+                </div> 
+        </div>
+        <button>Show more</button>
+    </div>
+    </section>
+
     <!-- Services section -->
     <section id="services">
         <div class="services-content">
@@ -48,32 +92,66 @@
         <p>We pride ourselves on building successful, end to end web and mobile applications.</p>
         <div class="services-tiles">
             <div>
-                <img src="" alt="">
+                <lord-icon
+                    src="https://cdn.lordicon.com/dtgezzsi.json"
+                    trigger="loop"
+                    colors="primary:#2d64d6,secondary:#349bfc"
+                    style="width:100px;height:100px">
+                </lord-icon>
                 <h3>Web Development</h3>
                 <p>We build beautiful, responsive and feature-rich web based applications that solve real customer problems</p>
             </div>
             <div>
-                <img src="" alt="">
+                <lord-icon
+                    src="https://cdn.lordicon.com/anihkfxp.json"
+                    trigger="loop"
+                    colors="primary:#2d64d6,secondary:#349bfc"
+                    stroke="55"
+                    style="width:100px;height:100px">
+                </lord-icon>
                 <h3>App Development</h3>
                 <p>We build Android, iOS and PWA's that work great across multiple devices, screen sizes and resolutions.</p>
             </div>
             <div>
-                <img src="" alt="">
+                <lord-icon
+                    src="https://cdn.lordicon.com/kqxqomzp.json"
+                    trigger="loop"
+                    colors="primary:#2d64d6,secondary:#349bfc"
+                    style="width:100px;height:100px">
+                </lord-icon>
                 <h3>UI/UX Design</h3>
                 <p>If great engineering is the heart of a product, great UI/UX is it's face.</p>
             </div>
             <div>
-                <img src="" alt="">
+                <lord-icon
+                    src="https://cdn.lordicon.com/nobciafz.json"
+                    trigger="loop"
+                    colors="primary:#2d64d6,secondary:#349bfc"
+                    stroke="55"
+                    style="width:100px;height:100px">
+                </lord-icon>
                 <h3>AI/ML/Chatbots</h3>
                 <p>We're always on the cutting edge of tech. Checkout some of the awesome Alexa skills, Google Actions and chatbots we've built!</p>
             </div>
             <div>
-                <img src="" alt="">
+                <lord-icon
+                    src="https://cdn.lordicon.com/gqdnbnwt.json"
+                    trigger="loop"
+                    colors="primary:#2d64d6,secondary:#349bfc"
+                    stroke="55"
+                    style="width:100px;height:100px">
+                </lord-icon>
                 <h3>Growth Hacking</h3>
                 <p>We not only know how to build products, we know how to build products people actually want.</p>
             </div>
             <div>
-                <img src="" alt="">
+                <lord-icon
+                    src="https://cdn.lordicon.com/wrprwmwt.json"
+                    trigger="loop"
+                    colors="primary:#2d64d6,secondary:#349bfc"
+                    stroke="55"
+                    style="width:100px;height:100px">
+                </lord-icon>
                 <h3>DevOps</h3>
                 <p>We've worked on websites handling more than 10 million hits/day. We can scale your products too.</p>
             </div>
@@ -83,6 +161,7 @@
     </section>
 
     <!-- Captain Section  -->
+    <div class="bg-blue-2"></div>
     <section id="captain">
         <div class="captain-content">
             <div class="Cleft">
@@ -99,10 +178,8 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- OurWork Section  -->
-    <section id="ourwork">
+        </section>
+        <section id="ourwork">
         <div class="work-content">
             <h3>Our work seems to get a lot of press attention 😎</h3>
             <div class="work-tiles">
@@ -125,13 +202,197 @@
         </div>
     </section>
 
+    <!-- Reviews Section -->
+    <section id="reviews">
+        <h2>Real words by real people</h2>
+        <p>It's great to get a pat on your back for a job well done. See <br> what our clients have to say about us.</p>
+        <div class="swiper-container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                        <div class="top">
+                            <img src="./Media/Images/1.jpeg" alt="person">
+                            <a href="https://in.linkedin.com/in/radhika-binani" target="_blank">
+                                  Radhika Binani 
+                                  <span>Chief Product Officer&nbsp;@PaisaBazaar</span> 
+                            </a>
+                        </div>
+                        <div class="bottom">
+                            <p>“It was a pleasure to work with Square Boat, Gaurav Gupta's organisation. Firstly the passion was very evident. The quality of people in his team are very high caliber. The level of ownership from start to finish was tremendous.”</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="top">
+                        <img src="./Media/Images/2.jpeg" alt="person">
+                        <a href="https://in.linkedin.com/in/anirudh-gupta-59470314" target="_blank">
+                              Anirudh Gupta 
+                              <span>Cofounder&nbsp;@Tripoto</span> 
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <p>“He is punctual, extremely professional and competent- a combination of skills that are rare to find in any technical consultant”</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="top">
+                        <img src="./Media/Images/3.jpeg" alt="person">
+                        <a href="https://in.linkedin.com/in/annu-talreja-4b28316" target="_blank">
+                            Annu Talreja 
+                              <span>Founder&nbsp;@OxfordCaps</span> 
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <p>“Gaurav is highly skilled in understanding the business requirements and translating them to a Tech product. Would highly recommend Gaurav to anyone who is looking for a long-term trustworthy tech partner”</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="top">
+                        <img src="./Media/Images/5.jpeg" alt="person">
+                        <a href="https://www.linkedin.com/in/taylorsingletary" target="_blank">
+                            Taylor Singletary 
+                              <span>Developer Evangelist&nbsp;@LinkedIn</span> 
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <p>“Gaurav would be an asset to any engineering team”</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="top">
+                        <img src="./Media/Images/6.jpeg" alt="person">
+                        <a href="https://in.linkedin.com/in/virenderbisht" target="_blank">
+                            Virender Bisht
+                              <span>VP - Tech&nbsp;@MakeMyTrip</span> 
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <p>“I hired Gaurav for lots of reasons, none better than his attitude. He brings a ton of positive energy in the team”</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="top">
+                        <img src="./Media/Images/7.jpeg" alt="person">
+                        <a href="https://www.linkedin.com/in/simplyarun" target="_blank">
+                            Arun Jay
+                              <span>Senior Product Manager&nbsp;@LinkedIn</span> 
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <p>“I have tremendously appreciated his dedication in getting things done. This cheerful young man is a great team player with rock solid application development skills. He is a terrific person to have on any great team”</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </section>
+
     <!-- Contact Section  -->
     <section id="contact">
         <div class="contact-content">
+        <div class="text">
         <h2>Partner with a Reliable & Experienced Studio</h2>
         <p>Have a great idea? Let's get in touch. The coffee is on us!</p>
         <button>Contact Us</button>
         </div>
+        <img src="./Media/Images/astronaut.svg" alt="astro">
+        </div>
     </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="clmn-1">
+            <div class="top">
+                <img src="./Media/Images/logo-only-white.svg" height="65px" width="65px" alt="logo">
+                <p>&#169; Squareboat 2022</p>
+            </div>
+            <div class="bottom">
+                <img src="./Media/Images/gptw-logo.png" height="150px" width="" alt="logo">
+            </div>
+        </div>
+        <div class="clmn-2">
+            <ul>
+                <li>Work</li>
+                <li>Services</li>
+                <li>Our Team</li>
+                <li>Meet the Captain</li>
+                <li>Labs</li>
+                <li>Why Squareboat?</li>
+                <li>SB Boarding Pass</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="clmn-3">
+            <ul>
+                <li>Web Development</li>
+                <li>App Development</li>
+                <li>Web Design</li>
+                <li>Growth Hacking</li>
+                <li>Chatbot Services</li>
+                <li>DevOps Consulting</li>
+            </ul>
+        </div>
+        <div class="clmn-4">
+            <ul>
+                <li>Blog</li>
+                <li>Careers</li>
+                <li>Privacy policy</li>
+                <li>Terms & conditions</li>
+            </ul>
+        </div>
+        <div class="clmn-5">
+            <div class="top">
+                <h1>Contact us</h1>
+            <ul>
+                <li>Call (+91) 011 411 70317</li>
+                <li>gauravgupta@squareboat.com</li>
+            </ul>
+            </div>
+            <div class="bottom">
+                <h1>Follow us</h1>
+            <ul>
+                <li>
+                    <img src="./Media/Images/Yt.svg" alt="logo">
+                    <p>Youtube</p>
+                </li>
+                <li>
+                    <img src="./Media/Images/linkedin.svg" alt="logo">
+                    <p>Linkedin</p>
+                </li>
+                <li>
+                    <img src="./Media/Images/fb.svg" alt="logo">
+                    <p>Facebook</p>
+                </li>
+                <li>
+                    <img src="./Media/Images/insta.svg" alt="logo">
+                    <p>Instagram</p>
+                </li>
+                <li>
+                    <img src="./Media/Images/twitter.svg" alt="logo">
+                    <p>Twitter</p>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 2,
+          spaceBetween: 140,
+          loop: true,
+          autoplay: {
+            delay: 3000
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+          },
+        });
+      </script>
 </body>
 </html>

@@ -1,0 +1,73 @@
+#reviews {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    color: #3396ff;
+    font-family: "circularM";
+    letter-spacing: 1px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  p {
+    font-family: "circularL";
+    font-size: 1.2rem;
+    margin: 1.5rem 0 4rem 0;
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  .swiper-container {
+    width: 100%;
+    padding: 0rem 10rem;
+    .swiper {
+      background-image: url(../Media/Images/pattern.svg);
+      object-fit: cover;
+      background-size: cover;
+      background-position: bottom;
+      .swiper-wrapper {
+        .swiper-slide {
+          background-color: white;
+          padding: 1rem 3rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          .top {
+            text-align: left;
+            img {
+              height: 60px;
+              width: 60px;
+              border-radius: 50%;
+              position: absolute;
+              top: 0;
+              left: -30px;
+            }
+            a {
+              font-family: "circularM";
+              text-decoration: none;
+              color: black;
+              position: relative;
+              span {
+                font-family: "circularL";
+                font-size: 0.9rem;
+                color: #3396ff;
+                display: block;
+              }
+            }
+          }
+          .bottom {
+            p {
+              text-align: left;
+              font-size: 1rem;
+              font-family: "circularL";
+              font-weight: 800;
+            }
+          }
+        }
+      }
+    }
+  }
+}
